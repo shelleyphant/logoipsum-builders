@@ -1,7 +1,14 @@
 import * as React from 'react'
+import Navigation from '../components/navigation'
+import Hero from '../components/hero'
 
 const IndexPage = () => {
-    return
+    return (
+        <>
+            <Navigation />
+            <Hero />
+        </>
+    )
 }
 
 export default IndexPage

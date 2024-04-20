@@ -11,6 +11,14 @@ module.exports = {
         // 'gatsby-plugin-google-gtag',
         'gatsby-plugin-image',
         {
+            resolve: 'gatsby-plugin-react-svg',
+            options: {
+                rule: {
+                    include: /src\/images/,
+                },
+            },
+        },
+        {
             resolve: 'gatsby-plugin-manifest',
             options: {
                 icon: 'src/images/icon.png',
