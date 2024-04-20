@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className=" bg-black text-white py-32">
             <div className="wrapper h-full flex flex-row justify-between">
                 <div className="h-full flex flex-col justify-between gap-16">
-                    <Logo className="w-96" />
+                    <Logo className="" />
                     <p>
                         We can help you level up your build.{' '}
                         <Link to="mailto:">Send us an email.</Link>
