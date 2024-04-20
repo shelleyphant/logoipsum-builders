@@ -4,8 +4,8 @@ import Scroll from '../images/scroll.svg'
 
 const Hero = () => {
     return (
-        <div className="w-full h-screen absolute top-0 left-0 w-full h-full -z-10">
-            <div className="w-full h-full bg-black bg-opacity-20 absolute"></div>
+        <div className="w-full h-screen -z-10 -mt-32">
+            <div className="w-full h-full bg-black top-0 left-0 bg-opacity-20 absolute"></div>
             <StaticImage
                 src="../images/hero.png"
                 alt="A kitchen interior fitted out with white marble."

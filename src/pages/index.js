@@ -2,11 +2,15 @@ import * as React from 'react'
 import Navigation from '../components/navigation'
 import Hero from '../components/hero'
 
+import Footer from '../components/footer'
+
 const IndexPage = () => {
     return (
         <>
             <Navigation />
             <Hero />
+
+            <Footer />
         </>
     )
 }
