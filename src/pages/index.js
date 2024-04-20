@@ -1,7 +1,10 @@
 import * as React from 'react'
 import Navigation from '../components/navigation'
 import Hero from '../components/hero'
-
+import About from '../components/about'
+import Projects from '../components/projects'
+import Testimonials from '../components/testimonials'
+import Contact from '../components/contact'
 import Footer from '../components/footer'
 
 const IndexPage = () => {
@@ -9,7 +12,10 @@ const IndexPage = () => {
         <>
             <Navigation />
             <Hero />
-
+            <About />
+            <Projects />
+            <Testimonials />
+            <Contact />
             <Footer />
         </>
     )
